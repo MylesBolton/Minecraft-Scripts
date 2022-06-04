@@ -2,7 +2,7 @@
 a few of script the help running a server 
 
 Part 1 - Simple Setup
-Add these script to the Minecraft Server folder the one with the .JAR make sure to change the version number in Screen.sh to the current version
+Add the `Screen.sh` and `start.sh` files found in this repo to the Minecraft Server folder the one with the `.JAR` make sure to change the version number in `Screen.sh` to the current version
 
 Step 1
 `Chmod -x Screen.sh start.sh`
