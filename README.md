@@ -12,14 +12,6 @@ Step 2
 `sudo nano /etc/systemd/system/MinecraftServer.service` #Edit the service
 
 Step 3
-`[Unit]
-Description = what service is for
-After = network.target
-
-[Service]
-Path/Screen.sh
-
-[Install]
-WantedBy = multi-user.target`
+copy the contets of the 
 
 Make sure you edit the Path for the Service to the Screen.sh file
