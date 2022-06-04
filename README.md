@@ -17,7 +17,9 @@ Description = what service is for
 After = network.target
 
 [Service]
-Path/Screen.sh` #Edit this Path to the Screen.sh 
+Path/Screen.sh
 
-`[Install]
+[Install]
 WantedBy = multi-user.target`
+
+Make sure you edit the Path for the Service to the Screen.sh file
