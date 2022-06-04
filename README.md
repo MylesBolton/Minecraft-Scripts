@@ -14,10 +14,10 @@ Step 2 - Edit the Service File
 Step 3 - copy the contets of the `MinecraftServer.service` File in the repo and paste it into the file you are editing Make sure you edit the Path for the Service to the Screen.sh file
 
 Step 4 - Enable the Service
-sudo systemctl enable filename.service
+`sudo systemctl enable MinecraftServer.service`
 
 Step 5 - Start the Service 
-sudo systemctl start filename.service
+`sudo systemctl start MinecraftServer.service`
 
 Step 6 - Check the Status of the Service 
-sudo systemctl status filemane.service
+`sudo systemctl status MinecraftServer.service`
